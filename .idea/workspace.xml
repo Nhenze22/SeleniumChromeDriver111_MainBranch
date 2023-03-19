@@ -4,21 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c00c402-3c89-49b0-8e25-5b3fb1d092e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumWebdriverChrome1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seleniumbasics/TC01_LaunchChromeBrowser.java" afterDir="false" />
+    <list default="true" id="1c00c402-3c89-49b0-8e25-5b3fb1d092e3" name="Changes" comment="Chrome V111 Fixed">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/annotations_24_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seleniumbasics/MyScreenshotTaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumWebdriverChrome1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumWebdriverChrome1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seleniumbasics/TC01_LaunchChromeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seleniumbasics/UI_Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,10 +47,25 @@
         </map>
       </branch-storage>
     </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.idea/vcs.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -59,21 +80,38 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/gigac/Downloads/selenium-server-4.8.1.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/gigac/Downloads/apache-maven-3.9.1-bin",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.14355469",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="seleniumbasics" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gigac\IdeaProjects\SeleniumWebdriverChrome1" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="TC01_LaunchChromeBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seleniumbasics.TC01_LaunchChromeBrowser" />
+  <component name="RunManager" selected="Application.MyScreenshotTaker">
+    <configuration name="MyScreenshotTaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seleniumbasics.MyScreenshotTaker" />
+      <module name="SeleniumWebdriverChrome1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumbasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UI_Tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seleniumbasics.UI_Tests" />
       <module name="SeleniumWebdriverChrome1" />
       <extension name="coverage">
         <pattern>
@@ -87,7 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TC01_LaunchChromeBrowser" />
+        <item itemvalue="Application.MyScreenshotTaker" />
+        <item itemvalue="Application.UI_Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +139,14 @@
       <option name="presentableId" value="Default" />
       <updated>1679181790405</updated>
     </task>
+    <task id="LOCAL-00001" summary="asdd">
+      <created>1679198803227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679198803227</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +159,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asdd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
